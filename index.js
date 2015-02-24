@@ -25,7 +25,7 @@ function slideUp(element) {
     var saved = clearTransitions(element);
 
     // save actual element height
-    element.style.height = element.clientHeight;
+    element.style.height = element.clientHeight + 'px';
 
     element._saved_height = element.style.height;
 
